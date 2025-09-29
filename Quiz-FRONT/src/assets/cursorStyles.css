@@ -1,0 +1,26 @@
+/* Base cursor style */
+body {
+    cursor: url('/path/to/default-cursor.png'), auto;
+  }
+  
+  /* Custom cursor styles */
+  .custom-cursor {
+    width: 20px;
+    height: 20px;
+    position: fixed;
+    border-radius: 50%;
+    pointer-events: none;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+    z-index: 9999;
+  }
+  
+  .cursor-over-button {
+    transform: scale(1.5);
+    background-color: rgba(255, 0, 106, 0.7);
+  }
+  
+  .cursor-play {
+    background: url('/path/to/play-cursor.png') no-repeat center center;
+    background-size: contain;
+  }
+  

@@ -1,0 +1,17 @@
+@keyframes backgroundEffect {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+  .dark-mode-background {
+    background: linear-gradient(270deg, #ff512f, #dd2476);
+    background-size: 400% 400%;
+    animation: backgroundEffect 15s ease infinite;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
