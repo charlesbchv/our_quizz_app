@@ -2,7 +2,7 @@
 Bienvenue dans le projet Web-Front-Back-Quiz, une application web de quiz développée dans le cadre du projet web full stack ESIEE E4FI.
 
 ## Membres de l'équipe
-Ce projet a été réalisé par les membres suivants :
+Ce projet a été réalisé par :
 
 * [Charles Batcheav](https://github.com/charlesbchv)
 * [Yanis Ait Taouit](https://github.com/y200-anis)
